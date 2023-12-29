@@ -32,7 +32,7 @@ def get_workshop_data_by_id(id: int) -> (str, str, Union[str, int], int):
     )
 
     if workshop_item_does_not_exist:
-        return None, None
+        return None, None, None, None
 
     ### GET LINK TO IMAGE ###
     try:
