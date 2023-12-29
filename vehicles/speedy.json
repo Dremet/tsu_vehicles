@@ -1,0 +1,153 @@
+﻿{
+    "properties": {
+        "guid": {
+            "a": 9,
+            "b": 13
+        },
+        "m_finalized": true,
+        "creationTime": 638367615797792794,
+        "makerId": 76561199107580352,
+        "name": "Speedy",
+        "description": "Big muscle car with very high top speed and moderate grip, but with low acceleration.",
+        "tags": {
+            "style": 1,
+            "speed": 2,
+            "acceleration": 0,
+            "turning": 1,
+            "sliding": 1,
+            "confirmTagsOk": true
+        },
+        "model": 10,
+        "collisionShape": 0,
+        "damage": {
+            "maxHitPoints": 10000
+        },
+        "audio": {
+            "engine": {
+                "engine": 27,
+                "pitch": 1.100000023841858,
+                "channels": 0,
+                "lowMax": 0.30000001192092898,
+                "medMaxRel": 0.5,
+                "highMax": 0.800000011920929,
+                "medExtra": 0.20000000298023225,
+                "gasSpeed": 5.0,
+                "onlyGasOn": false,
+                "gasOffPitch": 0.8999999761581421,
+                "gasOffVolume": 0.75,
+                "flyingPitch": 0.25
+            },
+            "gears": {
+                "gearAudio": true,
+                "shiftUp": 0.8999999761581421,
+                "shiftDown": 0.800000011920929,
+                "shiftDownIdle": 0.6000000238418579,
+                "ratio1": 4.0,
+                "ratio2": 2.5,
+                "ratio3": 1.7999999523162842,
+                "ratio4": 1.4249999523162842,
+                "ratio5": 1.2000000476837159,
+                "ratio6": 1.0499999523162842,
+                "ratio7": 0.9599999785423279,
+                "ratio8": 0.9100000262260437
+            }
+        },
+        "special": {
+            "camberAngleFront": 0.0,
+            "camberAngleRear": 0.0
+        },
+        "physicsModel": 0
+    },
+    "carPhysics": {
+        "weight": {
+            "mass": 1800.0,
+            "massY": 0.0,
+            "massZ": 0.0,
+            "gravity": 20.0
+        },
+        "contact": {
+            "bounciness": 0.25,
+            "staticFriction": 0.25,
+            "dynamicFriction": 0.25,
+            "bounceCombine": 0,
+            "frictionCombine": 0
+        },
+        "speed": {
+            "baseAcceleration": 37.5,
+            "baseAccelerationInverted": 0.026666667312383653,
+            "maxSpeed": 270.0,
+            "viscosity": 0.5,
+            "acceleration": 0.6000000238418579,
+            "reverseMultiplier": 0.33000001311302187,
+            "flyingViscosity": 0.30000001192092898,
+            "inverseMaxSpeed": 0.013333333656191826,
+            "inverseMaxSpeedConsideringReversing": 0.013333333656191826
+        },
+        "braking": {
+            "braking": 18.0,
+            "inverseBrakingWeightTransferWithDownforce": 0.16339334845542909,
+            "parkBraking": 20.0,
+            "parkSpeed": 2.0,
+            "complexLocking": false,
+            "lockingStartTime": 0.75,
+            "cooldownMultiplier": 2,
+            "brakeLockingStartTimeInTickThirds": 112,
+            "brakeCooldownThirdsInTick": 6,
+            "brakeWarmingInThirdsPerBrakingThirdInTick": 3,
+            "lockedBrakeMultiplier": 0.5,
+            "lockedGripMultiplier": 0.5
+        },
+        "steering": {
+            "grip": 26.5,
+            "maxSteering": 100.0,
+            "changeSpeed": 2000.0,
+            "changeReturnSpeed": 2000.0,
+            "neutralReturn": 1.0,
+            "changeReturnSpeedCounterSteering": 2000.0,
+            "changeReturnSpeedOnNeutral": 2000.0,
+            "limitingMode": 1,
+            "flyingSteering": 50.0,
+            "flyingChangeMult": 0.20000000298023225,
+            "fullSteeringSpeed": 10.0,
+            "reverseSteering": 0
+        },
+        "oversteering": {
+            "always": 15.0,
+            "sliding": 10.0,
+            "braking": 10.0,
+            "accelerating": 0.0
+        },
+        "sliding": {
+            "slidingAngle": 10.0,
+            "gradualRange": 8.0,
+            "gradualGrip": true,
+            "slideBraking": 7.199999809265137,
+            "deprecatedSlideDeceleration": 0.0,
+            "slideAcceleration": 1.0
+        },
+        "spring": {
+            "maxLength": 0.30000001192092898,
+            "maxAcceleration": 1.25,
+            "damping": 0.25,
+            "backLength": 1.0,
+            "backAcceleration": 1.0,
+            "backDamping": 1.0
+        },
+        "downforce": {
+            "downforce": 0.699999988079071,
+            "springAffectsGrip": false,
+            "springAffectsBraking": false,
+            "maxSpringGs": 0.5,
+            "maxAccSpringGs": 0.0
+        },
+        "weightTransfer": {
+            "turning": 5.0,
+            "braking": 5.0,
+            "accelerating": 6.0,
+            "viscosityReduction": 0.5
+        },
+        "gears": {
+            "gearCount": 1
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "properties": {
+        "tags": {
+            "style": 0,
+            "speed": 0,
+            "acceleration": 0,
+            "turning": 0,
+            "sliding": 0
+        },
+        "model": 0,
+        "collisionShape": 0,
+        "damage": {
+            "maxHitPoints": 500
+        }
+    },
+    "carPhysics": {
+        "weight": {
+            "mass": 1,
+            "massY": -2,
+            "massZ": -2,
+            "gravity": 0
+        },
+        "contact": {
+            "bounciness": 0,
+            "staticFriction": 0,
+            "dynamicFriction": 0,
+            "bounceCombine": 0,
+            "frictionCombine": 0
+        },
+        "speed": {
+            "maxSpeed": 1,
+            "viscosity": 0.001,
+            "acceleration": 0.1,
+            "reverseMultiplier": 0.01,
+            "flyingViscosity": 0.001
+        },
+        "braking": {
+            "braking": 0,
+            "parkBraking": 0,
+            "parkSpeed": 0,
+            "complexLocking": false
+        },
+        "steering": {
+            "grip": 0,
+            "maxSteering": 0,
+            "changeSpeed": 0,
+            "changeReturnSpeed": 0,
+            "neutralReturn": 0,
+            "flyingSteering": 0,
+            "flyingChangeMult": 0,
+            "fullSteeringSpeed": 0,
+            "reverseSteering": 0
+        },
+        "oversteering": {
+            "always": -1000,
+            "sliding": -1000,
+            "braking": -1000,
+            "accelerating": -1000
+        },
+        "sliding": {
+            "slidingAngle": 0,
+            "gradualRange": 0,
+            "gradualGrip": false,
+            "slideBraking": 0,
+            "slideAcceleration": 0
+        },
+        "spring": {
+            "maxLength": 0.01,
+            "maxAcceleration": 0.01,
+            "damping": 0,
+            "backLength": 0.2,
+            "backAcceleration": 0.1,
+            "backDamping": 0.1
+        },
+        "downforce": {
+            "downforce": 0,
+            "springAffectsGrip": false,
+            "springAffectsBraking": false,
+            "maxSpringGs": 0,
+            "maxAccSpringGs": 0
+        },
+        "weightTransfer": {
+            "turning": -100,
+            "braking": -100,
+            "accelerating": -100,
+            "viscosityReduction": 0
+        }
+    }
+}

@@ -1,0 +1,153 @@
+﻿{
+    "properties": {
+        "guid": {
+            "a": 27876843124647499,
+            "b": 2976317115
+        },
+        "m_finalized": true,
+        "creationTime": 638197753172419857,
+        "makerId": 76561198066556060,
+        "name": "F3 Origin v11",
+        "description": "This is realistic F3 car - made for serious races.",
+        "tags": {
+            "style": 0,
+            "speed": 1,
+            "acceleration": 1,
+            "turning": 1,
+            "sliding": 0,
+            "confirmTagsOk": true
+        },
+        "model": 8,
+        "collisionShape": 0,
+        "damage": {
+            "maxHitPoints": 10000
+        },
+        "audio": {
+            "engine": {
+                "engine": 33,
+                "pitch": 0.75,
+                "channels": 0,
+                "lowMax": 0.30000001192092898,
+                "medMaxRel": 0.5,
+                "highMax": 0.800000011920929,
+                "medExtra": 0.20000000298023225,
+                "gasSpeed": 5.0,
+                "onlyGasOn": false,
+                "gasOffPitch": 0.8999999761581421,
+                "gasOffVolume": 0.75,
+                "flyingPitch": 0.25
+            },
+            "gears": {
+                "gearAudio": true,
+                "shiftUp": 0.8299999833106995,
+                "shiftDown": 0.800000011920929,
+                "shiftDownIdle": 0.800000011920929,
+                "ratio1": 2.7300000190734865,
+                "ratio2": 1.8600000143051148,
+                "ratio3": 1.3799999952316285,
+                "ratio4": 1.100000023841858,
+                "ratio5": 0.9200000166893005,
+                "ratio6": 0.7799999713897705,
+                "ratio7": 0.0,
+                "ratio8": 0.0
+            }
+        },
+        "special": {
+            "camberAngleFront": -3.0,
+            "camberAngleRear": -1.5
+        },
+        "physicsModel": 0
+    },
+    "carPhysics": {
+        "weight": {
+            "mass": 635.0,
+            "massY": 0.0,
+            "massZ": 0.0,
+            "gravity": 20.0
+        },
+        "contact": {
+            "bounciness": 0.05000000074505806,
+            "staticFriction": 0.10000000149011612,
+            "dynamicFriction": 0.10000000149011612,
+            "bounceCombine": 0,
+            "frictionCombine": 0
+        },
+        "speed": {
+            "baseAcceleration": 19.166667938232423,
+            "baseAccelerationInverted": 0.052173908799886706,
+            "maxSpeed": 300.0,
+            "viscosity": 0.23000000417232514,
+            "acceleration": 0.7900000214576721,
+            "reverseMultiplier": 0.33000001311302187,
+            "flyingViscosity": 0.15000000596046449,
+            "inverseMaxSpeed": 0.011999999172985554,
+            "inverseMaxSpeedConsideringReversing": 0.011999999172985554
+        },
+        "braking": {
+            "braking": 15.0,
+            "inverseBrakingWeightTransferWithDownforce": 0.028069520369172097,
+            "parkBraking": 5.0,
+            "parkSpeed": 2.0,
+            "complexLocking": true,
+            "lockingStartTime": 1.2000000476837159,
+            "cooldownMultiplier": 1,
+            "brakeLockingStartTimeInTickThirds": 180,
+            "brakeCooldownThirdsInTick": 3,
+            "brakeWarmingInThirdsPerBrakingThirdInTick": 2,
+            "lockedBrakeMultiplier": 0.5,
+            "lockedGripMultiplier": 0.5
+        },
+        "steering": {
+            "grip": 22.5,
+            "maxSteering": 82.0,
+            "changeSpeed": 110.0,
+            "changeReturnSpeed": 600.0,
+            "neutralReturn": 0.25,
+            "changeReturnSpeedCounterSteering": 600.0,
+            "changeReturnSpeedOnNeutral": 150.0,
+            "limitingMode": 1,
+            "flyingSteering": 50.0,
+            "flyingChangeMult": 0.0,
+            "fullSteeringSpeed": 6.0,
+            "reverseSteering": 0
+        },
+        "oversteering": {
+            "always": -4.0,
+            "sliding": 100.0,
+            "braking": -5.0,
+            "accelerating": -6.0
+        },
+        "sliding": {
+            "slidingAngle": 5.0,
+            "gradualRange": 20.0,
+            "gradualGrip": true,
+            "slideBraking": 10.0,
+            "deprecatedSlideDeceleration": 0.0,
+            "slideAcceleration": 0.800000011920929
+        },
+        "spring": {
+            "maxLength": 0.12999999523162843,
+            "maxAcceleration": 1.7000000476837159,
+            "damping": 0.44999998807907107,
+            "backLength": 1.2999999523162842,
+            "backAcceleration": 1.0,
+            "backDamping": 1.0
+        },
+        "downforce": {
+            "downforce": 1.850000023841858,
+            "springAffectsGrip": true,
+            "springAffectsBraking": true,
+            "maxSpringGs": 9.0,
+            "maxAccSpringGs": 1.0
+        },
+        "weightTransfer": {
+            "turning": 1.0,
+            "braking": 1.2000000476837159,
+            "accelerating": -2.0,
+            "viscosityReduction": 0.5
+        },
+        "gears": {
+            "gearCount": 1
+        }
+    }
+}
