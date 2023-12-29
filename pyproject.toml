@@ -1,7 +1,7 @@
 [project]
 name = "tsu_vehicles"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "Collect data about vehicles used in Turbo Sliders Unlimited"
 authors = [
     {name = "Andre Petersen", email = "info@csup.app"},
 ]
